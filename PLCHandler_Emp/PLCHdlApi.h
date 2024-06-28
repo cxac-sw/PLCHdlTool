@@ -82,7 +82,6 @@ private:
 
 class __declspec(dllexport) CPLCHandleApi
 {
-    //Q_OBJECT
 public:
     CPLCHandleApi(std::string  ini);
     CPLCHandleApi();
@@ -96,7 +95,6 @@ public:
     unsigned int GetAllVariantSymbols();
     int    GetPlcHandleState();
 
-//signals:
     void errlog(std::string errstr);
     bool readlog;
 
